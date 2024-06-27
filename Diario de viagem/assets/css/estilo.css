@@ -1,0 +1,115 @@
+/* formatações gerais */
+*{
+   margin: 0;
+   padding: 0;
+}
+body{
+   font-size:18px;
+   font-family: Verdana, Arial, Helvetica, sans-serif;
+   background:#e6e6e6;
+}
+
+/*formatações gerais do layout*/
+#area-cabecalho{
+   background-image : url('nuvem.jpg');
+   background-position: center bottom;
+   background-size: 50vw;
+   padding: 15px;
+   display: flex;
+   justify-content:space-between;
+   align-items: flex-start;
+
+
+}
+
+#area-logo, #area-menu{
+   font-size: 25px;
+   padding: 5px;
+   text-align: left;
+   text-shadow:#000 -1px -1px;
+   
+}
+
+#area-cidade{
+   font-size: 18px;
+   padding: 2px;
+   text-align: right;
+   -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: #000000;
+   text-shadow:#000 -2px -2px;
+}
+
+#area-principal{
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content:space-around;
+   align-content: flex-start;
+   flex-grow:1;
+}
+
+#area-postagens{
+   
+  
+}
+
+.postagem{
+   width: 800px;
+   padding: 20px;
+   margin-bottom: 20px;
+   background-color: #fff;
+}
+
+
+
+#rodape{
+   text-align: center;
+   padding: 15px;
+   background-color: #ccc;
+   clear: both;
+}
+
+/*formatacao do menu*/
+a{
+   text-decoration: none;
+}
+
+a:visited{
+   color: #f3d31e;
+   text-shadow: 3px 3px black;
+}
+
+#area-cabecalho a:visited{
+   color: #f3d31e;
+   padding: 12px;
+
+}
+
+#area-cabecalho a:hover{
+   color: #f3d31e;
+   background-color: #fff;
+   
+   text-decoration: none;
+}
+
+/*estilos greais*/
+h1{
+   color: #ffffff;
+   text-shadow: 3px 3px black;
+   font-size: 30px;
+}
+
+
+h2{
+   color: #0084ff;
+}
+
+h3{
+   color: #565656;
+   background-color: #ccc;
+   padding: 5px;
+}
+
+.branco{
+   color: #fff;
+}
